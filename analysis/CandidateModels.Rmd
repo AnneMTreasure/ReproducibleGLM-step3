@@ -36,9 +36,13 @@ caret::varImp(net)
 ```
 
 ## gbm
-```{r gbm}
+```{r gbm , results='hide'}
 boosted<-caret::train(survived~.,                                       data=titanic_train_c,
-                    method="gbm")
+                    method="gbm"
+                    )
+```
+
+```{r gbmprint}
 summary(boosted)
 caret::varImp(boosted)
 ```

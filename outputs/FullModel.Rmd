@@ -17,3 +17,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r dataprocessing, child="../analysis/FeatureProcessing.Rmd"}
 ```
+
+```{r models, child="../analysis/CandidateModels.Rmd"}
+```
