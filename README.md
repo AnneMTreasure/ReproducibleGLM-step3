@@ -36,3 +36,4 @@ Data steps
 -   Get data
 -   Clean it
 -   Sample it
+-   Process the features
